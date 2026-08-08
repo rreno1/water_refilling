@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AQUAPURE — Water Refilling Station System</title>
+  <meta name="description" content="Production sales, inventory, delivery, and customer management system for water refilling stations.">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body class="theme-dark">
+  <div id="app" class="app-layout">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="brand-logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" fill="url(#water-grad)" stroke="currentColor" stroke-width="1.5"/>
+            <defs>
+              <linearGradient id="water-grad" x1="12" y1="2.69" x2="12" y2="20.69" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#38bdf8"/>
+                <stop offset="1" stop-color="#0284c7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="brand-name">AQUAPURE <span class="brand-badge">POS</span></span>
+      </div>
+
+      <nav id="main-nav" class="main-nav">
+        <!-- Dynamic links populated by router based on role -->
+      </nav>
+
+      <div class="user-profile-widget" id="user-widget">
+        <span class="user-role-badge" id="user-role-badge">GUEST</span>
+        <span class="user-display-name" id="user-name-display">Not Authenticated</span>
+        <button id="logout-btn" class="btn btn-secondary btn-sm" style="display: none;">Logout</button>
+      </div>
+    </header>
+
+    <!-- Notification Toast Container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Main View Container -->
+    <main id="main-content" class="main-content">
+      <div class="loading-spinner-container" id="global-loader">
+        <div class="spinner"></div>
+        <p class="loading-text">Initializing AQUAPURE System...</p>
+      </div>
+    </main>
+
+    <!-- Protocol Check for direct file:// opening -->
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.addEventListener('DOMContentLoaded', () => {
+          const main = document.getElementById('main-content');
+          if (main) {
+            main.innerHTML = `
+              <div class="card" style="max-width: 540px; margin: 3rem auto; text-align: center; border-color: var(--warning-color);">
+                <h2 class="card-title" style="color: var(--warning-color);">HTTP Local Server Required</h2>
+                <p style="margin: 1rem 0; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                  Modern web applications built with <strong>JavaScript ES Modules</strong> cannot be opened directly using <code>file://</code> due to browser security (CORS) rules.
+                </p>
+                <div style="background: var(--bg-base); padding: 1rem; border-radius: 6px; font-family: monospace; margin-bottom: 1.25rem; text-align: left; font-size: 0.9rem;">
+                  <span style="color: var(--text-muted);"># Run local development server:</span><br>
+                  <strong style="color: var(--primary-color);">npm run dev</strong><br><br>
+                  <span style="color: var(--text-muted);"># Or open with VS Code Live Server at:</span><br>
+                  <strong style="color: var(--success-color);">http://localhost:3000</strong>
+                </div>
+              </div>
+            `;
+          }
+        });
+      }
+    </script>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2026 AQUAPURE Refilling Station System. Ritz Framework Certified. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Main Application Entry Point -->
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "water_refilling",
+  "version": "1.0.0",
+  "description": "Water Refilling Station Management System",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "validate:arch": "node scripts/validate-architecture.cjs",
+    "test:unit": "node --test tests/unit/**/*.test.js",
+    "test": "npm run validate:arch && npm run test:unit"
+  }
+}
