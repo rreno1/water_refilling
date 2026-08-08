@@ -1,0 +1,11 @@
+{
+  "module": "dashboard",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "CASHIER",
+    "INVENTORY_PERSONNEL",
+    "DELIVERY_PERSONNEL",
+    "CUSTOMER"
+  ]
+}

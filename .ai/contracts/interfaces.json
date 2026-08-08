@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "contracts": {
+    "auth-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "user-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "customer-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "inventory-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "jug-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "order-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "payment-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "sales-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "delivery-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    },
+    "notification-service": {
+      "version": "1.0.0",
+      "state": "approved"
+    }
+  }
+}

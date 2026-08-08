@@ -1,0 +1,6 @@
+{
+  "module": "customer-portal",
+  "exports": [
+    "initCustomerPortalModule"
+  ]
+}

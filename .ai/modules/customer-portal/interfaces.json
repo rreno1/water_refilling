@@ -1,0 +1,7 @@
+{
+  "module": "customer-portal",
+  "public_services": [
+    "customer-portal-service"
+  ],
+  "contract_version": "1.0.0"
+}

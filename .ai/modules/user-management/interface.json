@@ -1,0 +1,6 @@
+{
+  "module": "user-management",
+  "exports": [
+    "initUserManagementModule"
+  ]
+}

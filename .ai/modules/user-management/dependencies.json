@@ -1,0 +1,7 @@
+{
+  "module": "user-management",
+  "direct_dependencies": [
+    "authentication",
+    "audit"
+  ]
+}

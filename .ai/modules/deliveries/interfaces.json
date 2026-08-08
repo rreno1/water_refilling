@@ -1,0 +1,7 @@
+{
+  "module": "deliveries",
+  "public_services": [
+    "deliveries-service"
+  ],
+  "contract_version": "1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "module": "jug-accountability",
+  "integration_tests": [
+    {
+      "id": "jug-accountability-INT-01",
+      "description": "Test jug-accountability backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

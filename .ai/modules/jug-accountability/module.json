@@ -1,0 +1,11 @@
+{
+  "name": "jug-accountability",
+  "version": "1.0.0",
+  "description": "Module specification for jug-accountability in water_refilling system",
+  "file_boundaries": [
+    "src/modules/jug-accountability/**",
+    "functions/src/modules/jug-accountability/**",
+    "tests/unit/jug-accountability/**",
+    "tests/integration/jug-accountability/**"
+  ]
+}

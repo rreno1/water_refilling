@@ -1,0 +1,9 @@
+{
+  "module": "reports",
+  "integration_tests": [
+    {
+      "id": "reports-INT-01",
+      "description": "Test reports backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

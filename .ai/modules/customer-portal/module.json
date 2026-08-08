@@ -1,0 +1,11 @@
+{
+  "name": "customer-portal",
+  "version": "1.0.0",
+  "description": "Module specification for customer-portal in water_refilling system",
+  "file_boundaries": [
+    "src/modules/customer-portal/**",
+    "functions/src/modules/customer-portal/**",
+    "tests/unit/customer-portal/**",
+    "tests/integration/customer-portal/**"
+  ]
+}

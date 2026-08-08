@@ -1,0 +1,9 @@
+{
+  "module": "deliveries",
+  "integration_tests": [
+    {
+      "id": "deliveries-INT-01",
+      "description": "Test deliveries backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

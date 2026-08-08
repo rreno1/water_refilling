@@ -1,0 +1,11 @@
+{
+  "name": "product-pricing",
+  "version": "1.0.0",
+  "description": "Module specification for product-pricing in water_refilling system",
+  "file_boundaries": [
+    "src/modules/product-pricing/**",
+    "functions/src/modules/product-pricing/**",
+    "tests/unit/product-pricing/**",
+    "tests/integration/product-pricing/**"
+  ]
+}

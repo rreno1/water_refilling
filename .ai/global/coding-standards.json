@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "javascript": {
+    "module_format": "ES Modules (import/export)",
+    "declarations": "const by default, let when mutable, never var",
+    "async_handling": "async/await with try/catch",
+    "documentation": "JSDoc comments for all exported functions, services, and repositories",
+    "naming": {
+      "files": "kebab-case.js",
+      "variables_functions": "camelCase",
+      "constants": "UPPER_SNAKE_CASE",
+      "classes": "PascalCase"
+    }
+  },
+  "architecture_pattern": "UI Layer -> Service Layer -> Repository / Cloud Function Layer -> Firestore"
+}

@@ -1,0 +1,6 @@
+{
+  "module": "sales-pos",
+  "key_workflows": [
+    "Standard operation workflow for sales-pos"
+  ]
+}

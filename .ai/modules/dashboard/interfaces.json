@@ -1,0 +1,7 @@
+{
+  "module": "dashboard",
+  "public_services": [
+    "dashboard-service"
+  ],
+  "contract_version": "1.0.0"
+}

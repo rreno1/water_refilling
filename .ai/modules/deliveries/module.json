@@ -1,0 +1,11 @@
+{
+  "name": "deliveries",
+  "version": "1.0.0",
+  "description": "Module specification for deliveries in water_refilling system",
+  "file_boundaries": [
+    "src/modules/deliveries/**",
+    "functions/src/modules/deliveries/**",
+    "tests/unit/deliveries/**",
+    "tests/integration/deliveries/**"
+  ]
+}

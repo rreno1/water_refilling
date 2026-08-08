@@ -1,0 +1,7 @@
+{
+  "module": "sales-pos",
+  "rules": [
+    "Input parameters must be sanitized",
+    "Backend authorization token verification mandatory"
+  ]
+}

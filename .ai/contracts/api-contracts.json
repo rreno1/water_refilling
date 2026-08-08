@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "endpoints": {
+    "createEmployeeAccount": {
+      "auth": "OWNER",
+      "method": "CloudFunction"
+    },
+    "updateEmployeeRole": {
+      "auth": "OWNER",
+      "method": "CloudFunction"
+    },
+    "createDeliveryOrder": {
+      "auth": "CUSTOMER|OWNER|ADMINISTRATOR|CASHIER",
+      "method": "CloudFunction"
+    },
+    "processWalkInSale": {
+      "auth": "CASHIER|OWNER|ADMINISTRATOR",
+      "method": "CloudFunction"
+    },
+    "createPayMongoCheckout": {
+      "auth": "CUSTOMER|OWNER|ADMINISTRATOR|CASHIER",
+      "method": "CloudFunction"
+    },
+    "handlePayMongoWebhook": {
+      "auth": "PAYMONGO_SIGNATURE",
+      "method": "CloudFunction"
+    },
+    "adjustInventory": {
+      "auth": "OWNER|ADMINISTRATOR|INVENTORY_PERSONNEL",
+      "method": "CloudFunction"
+    },
+    "adjustJugBalance": {
+      "auth": "OWNER|ADMINISTRATOR|INVENTORY_PERSONNEL",
+      "method": "CloudFunction"
+    },
+    "recordSaleCorrection": {
+      "auth": "OWNER|ADMINISTRATOR",
+      "method": "CloudFunction"
+    }
+  }
+}

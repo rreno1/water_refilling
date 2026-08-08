@@ -1,0 +1,7 @@
+{
+  "module": "authentication",
+  "public_services": [
+    "authentication-service"
+  ],
+  "contract_version": "1.0.0"
+}

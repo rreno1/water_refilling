@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "protected_branches": [
+    "main",
+    "develop"
+  ],
+  "branch_naming": "feature/<module-name>-<description> or fix/<module-name>-<description>",
+  "pr_requirements": {
+    "human_approval": "At least 1 human reviewer approval required before merge",
+    "ai_restriction": "AI assistants CANNOT merge PRs or approve their own code",
+    "pr_template_fields": [
+      "module",
+      "requirements_implemented",
+      "contract_versions",
+      "files_changed",
+      "tests_performed",
+      "security_considerations"
+    ]
+  }
+}

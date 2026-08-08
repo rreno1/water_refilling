@@ -1,0 +1,9 @@
+{
+  "module": "audit",
+  "integration_tests": [
+    {
+      "id": "audit-INT-01",
+      "description": "Test audit backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

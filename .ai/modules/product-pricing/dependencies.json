@@ -1,0 +1,7 @@
+{
+  "module": "product-pricing",
+  "direct_dependencies": [
+    "authentication",
+    "audit"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module": "payments",
+  "direct_dependencies": [
+    "authentication",
+    "orders",
+    "notifications",
+    "audit"
+  ]
+}

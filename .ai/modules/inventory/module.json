@@ -1,0 +1,11 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "Module specification for inventory in water_refilling system",
+  "file_boundaries": [
+    "src/modules/inventory/**",
+    "functions/src/modules/inventory/**",
+    "tests/unit/inventory/**",
+    "tests/integration/inventory/**"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module": "inventory",
+  "integration_tests": [
+    {
+      "id": "inventory-INT-01",
+      "description": "Test inventory backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

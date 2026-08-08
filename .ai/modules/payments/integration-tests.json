@@ -1,0 +1,9 @@
+{
+  "module": "payments",
+  "integration_tests": [
+    {
+      "id": "payments-INT-01",
+      "description": "Test payments backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

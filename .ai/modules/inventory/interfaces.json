@@ -1,0 +1,7 @@
+{
+  "module": "inventory",
+  "public_services": [
+    "inventory-service"
+  ],
+  "contract_version": "1.0.0"
+}

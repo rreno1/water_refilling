@@ -1,0 +1,9 @@
+{
+  "module": "orders",
+  "allowed_roles": [
+    "CUSTOMER",
+    "OWNER",
+    "ADMINISTRATOR",
+    "CASHIER"
+  ]
+}

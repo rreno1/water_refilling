@@ -1,0 +1,7 @@
+{
+  "module": "sales-pos",
+  "public_services": [
+    "sales-pos-service"
+  ],
+  "contract_version": "1.0.0"
+}

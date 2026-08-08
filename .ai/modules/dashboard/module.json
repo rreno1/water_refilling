@@ -1,0 +1,11 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Module specification for dashboard in water_refilling system",
+  "file_boundaries": [
+    "src/modules/dashboard/**",
+    "functions/src/modules/dashboard/**",
+    "tests/unit/dashboard/**",
+    "tests/integration/dashboard/**"
+  ]
+}

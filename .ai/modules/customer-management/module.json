@@ -1,0 +1,11 @@
+{
+  "name": "customer-management",
+  "version": "1.0.0",
+  "description": "Module specification for customer-management in water_refilling system",
+  "file_boundaries": [
+    "src/modules/customer-management/**",
+    "functions/src/modules/customer-management/**",
+    "tests/unit/customer-management/**",
+    "tests/integration/customer-management/**"
+  ]
+}

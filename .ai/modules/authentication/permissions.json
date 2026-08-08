@@ -1,0 +1,6 @@
+{
+  "module": "authentication",
+  "allowed_roles": [
+    "ALL_USERS"
+  ]
+}

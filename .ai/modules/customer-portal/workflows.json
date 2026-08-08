@@ -1,0 +1,6 @@
+{
+  "module": "customer-portal",
+  "key_workflows": [
+    "Standard operation workflow for customer-portal"
+  ]
+}

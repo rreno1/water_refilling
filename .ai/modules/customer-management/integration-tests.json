@@ -1,0 +1,9 @@
+{
+  "module": "customer-management",
+  "integration_tests": [
+    {
+      "id": "customer-management-INT-01",
+      "description": "Test customer-management backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

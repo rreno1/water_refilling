@@ -1,0 +1,7 @@
+{
+  "module": "product-pricing",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR"
+  ]
+}

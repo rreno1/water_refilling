@@ -1,0 +1,9 @@
+{
+  "module": "customer-portal",
+  "integration_tests": [
+    {
+      "id": "customer-portal-INT-01",
+      "description": "Test customer-portal backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

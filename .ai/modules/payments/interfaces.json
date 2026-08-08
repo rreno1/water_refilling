@@ -1,0 +1,7 @@
+{
+  "module": "payments",
+  "public_services": [
+    "payments-service"
+  ],
+  "contract_version": "1.0.0"
+}

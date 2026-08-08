@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "records": [
+    {
+      "id": "ADR-001",
+      "title": "Ritz Framework & Tech Stack Selection",
+      "status": "APPROVED",
+      "context": "Need a clean, maintainable, responsive application for a water refilling station.",
+      "decision": "Use HTML5, Vanilla CSS3, Vanilla JS ES Modules, Hash Routing, GitHub Pages, Firebase Auth/Firestore/Functions.",
+      "consequences": "Zero framework bloat, high speed, cheap hosting, strict Cloud Function security boundary."
+    },
+    {
+      "id": "ADR-002",
+      "title": "Authenticated Customer Accounts & Portal Override",
+      "status": "APPROVED",
+      "context": "Override older manuscript limitation to allow digital ordering.",
+      "decision": "Customers have self-registered authenticated accounts with a dedicated customer portal.",
+      "consequences": "Customers can submit delivery orders, track status, view receipts and jug balances online."
+    },
+    {
+      "id": "ADR-003",
+      "title": "PayMongo Backend Integration",
+      "status": "APPROVED",
+      "context": "Online payment requirement for customer orders.",
+      "decision": "Integrate PayMongo exclusively via trusted Cloud Functions. Secret keys never leave backend.",
+      "consequences": "Prevents client payment forgery and secret leakage."
+    },
+    {
+      "id": "ADR-004",
+      "title": "Single Owner & Explicit Role Boundaries",
+      "status": "APPROVED",
+      "context": "Need strict employee management control.",
+      "decision": "Exactly one protected OWNER account. Only OWNER manages employee accounts/roles.",
+      "consequences": "Administrators cannot alter staff roles or elevate permissions."
+    },
+    {
+      "id": "ADR-005",
+      "title": "Quantity-Based Company Jug Accountability",
+      "status": "APPROVED",
+      "context": "Tracking company-owned water jugs held by customers.",
+      "decision": "Track jug movements (RELEASED, RETURNED, ADJUSTMENT) on a quantity basis per customer. No barcodes/QR/RFID.",
+      "consequences": "Simple, accurate inventory and customer jug balance balance checks without hardware complexity."
+    },
+    {
+      "id": "ADR-006",
+      "title": "Immutable Finalized Sales & No Order Cancellation",
+      "status": "APPROVED",
+      "context": "Prevent financial fraud and audit tampering.",
+      "decision": "Finalized sales cannot be edited, deleted, voided, or refunded. Delivery orders cannot be cancelled once confirmed. Owner/Admin can append secondary correction records.",
+      "consequences": "Preserves 100% financial audit integrity."
+    }
+  ]
+}

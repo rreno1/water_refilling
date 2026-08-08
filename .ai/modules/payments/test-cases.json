@@ -1,0 +1,20 @@
+{
+  "module": "payments",
+  "test_cases": [
+    {
+      "id": "payments-TC-01",
+      "name": "Normal Operation",
+      "type": "unit"
+    },
+    {
+      "id": "payments-TC-02",
+      "name": "Unauthorized Access Blocked",
+      "type": "security"
+    },
+    {
+      "id": "payments-TC-03",
+      "name": "Invalid Input Handling",
+      "type": "validation"
+    }
+  ]
+}

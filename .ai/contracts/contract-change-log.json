@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "changes": [
+    {
+      "change_id": "CHG-001",
+      "date": "2026-08-08",
+      "requester": "Human Project Lead",
+      "approver": "Human Project Lead",
+      "old_version": "0.0.0",
+      "new_version": "1.0.0",
+      "description": "Initial approval of V1 architecture instructions and contracts",
+      "affected_modules": [
+        "authentication",
+        "user-management",
+        "customer-management",
+        "customer-portal",
+        "product-pricing",
+        "inventory",
+        "jug-accountability",
+        "orders",
+        "payments",
+        "sales-pos",
+        "deliveries",
+        "notifications",
+        "dashboard",
+        "reports",
+        "audit",
+        "settings"
+      ]
+    }
+  ]
+}

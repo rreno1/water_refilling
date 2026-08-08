@@ -1,0 +1,13 @@
+{
+  "module": "sales-pos",
+  "direct_dependencies": [
+    "authentication",
+    "customer-management",
+    "product-pricing",
+    "inventory",
+    "jug-accountability",
+    "payments",
+    "notifications",
+    "audit"
+  ]
+}

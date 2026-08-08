@@ -1,0 +1,9 @@
+{
+  "module": "product-pricing",
+  "integration_tests": [
+    {
+      "id": "product-pricing-INT-01",
+      "description": "Test product-pricing backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

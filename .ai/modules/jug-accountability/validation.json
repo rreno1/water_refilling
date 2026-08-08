@@ -1,0 +1,7 @@
+{
+  "module": "jug-accountability",
+  "rules": [
+    "Input parameters must be sanitized",
+    "Backend authorization token verification mandatory"
+  ]
+}

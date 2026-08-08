@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "enums": {
+    "EmployeeRole": [
+      "OWNER",
+      "ADMINISTRATOR",
+      "CASHIER",
+      "INVENTORY_PERSONNEL",
+      "DELIVERY_PERSONNEL"
+    ],
+    "UserRole": [
+      "OWNER",
+      "ADMINISTRATOR",
+      "CASHIER",
+      "INVENTORY_PERSONNEL",
+      "DELIVERY_PERSONNEL",
+      "CUSTOMER"
+    ],
+    "InventoryItemType": [
+      "JUG",
+      "CAP",
+      "PLASTIC_FILM_SEAL"
+    ],
+    "InventoryMovementType": [
+      "RESTOCK",
+      "ADJUSTMENT_IN",
+      "ADJUSTMENT_OUT",
+      "SALE_CONSUMPTION",
+      "RETURN",
+      "RESERVATION",
+      "RESERVATION_RELEASE"
+    ],
+    "JugMovementType": [
+      "RELEASED_TO_CUSTOMER",
+      "RETURNED_BY_CUSTOMER",
+      "ADJUSTMENT"
+    ],
+    "ContainerSource": [
+      "CUSTOMER_OWNED",
+      "COMPANY_OWNED"
+    ],
+    "OrderClassification": [
+      "WALK_IN",
+      "DELIVERY"
+    ],
+    "DeliveryStatus": [
+      "PENDING",
+      "ASSIGNED",
+      "OUT_FOR_DELIVERY",
+      "DELIVERED",
+      "FAILED"
+    ],
+    "PaymentMethod": [
+      "CASH",
+      "PAYMONGO"
+    ],
+    "PaymentStatus": [
+      "PENDING",
+      "PAID",
+      "FAILED"
+    ],
+    "NotificationType": [
+      "LOW_STOCK",
+      "ORDER_CREATED",
+      "ORDER_CONFIRMED",
+      "PAYMENT_CONFIRMED",
+      "PAYMENT_FAILED",
+      "DELIVERY_ASSIGNED",
+      "DELIVERY_OUT_FOR_DELIVERY",
+      "DELIVERY_DELIVERED",
+      "DELIVERY_FAILED"
+    ]
+  }
+}

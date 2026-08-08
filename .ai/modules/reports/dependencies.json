@@ -1,0 +1,12 @@
+{
+  "module": "reports",
+  "direct_dependencies": [
+    "authentication",
+    "sales-pos",
+    "inventory",
+    "deliveries",
+    "customer-management",
+    "jug-accountability",
+    "audit"
+  ]
+}

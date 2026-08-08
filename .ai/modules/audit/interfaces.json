@@ -1,0 +1,7 @@
+{
+  "module": "audit",
+  "public_services": [
+    "audit-service"
+  ],
+  "contract_version": "1.0.0"
+}

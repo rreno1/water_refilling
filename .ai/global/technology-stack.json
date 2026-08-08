@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "frontend": {
+    "html": "HTML5 Semantic elements",
+    "css": "Vanilla CSS3, HSL design system, CSS custom properties, zero Tailwind/Bootstrap",
+    "javascript": "ES Modules (ES2022+), Async/Await, Vanilla JS DOM API",
+    "routing": "Hash-based client-side router (#/route)",
+    "hosting": "GitHub Pages"
+  },
+  "backend": {
+    "authentication": "Firebase Authentication (Email/Password)",
+    "database": "Cloud Firestore (Document-oriented)",
+    "serverless": "Firebase Cloud Functions (Node.js 20 runtime)",
+    "security": "Firebase App Check & Firestore Security Rules",
+    "emulator": "Firebase Emulator Suite for local automated testing"
+  },
+  "payments": {
+    "cash": "Direct POS & Protected Delivery Collection",
+    "paymongo": "Trusted Cloud Functions integration (Checkout API / Webhooks)"
+  },
+  "prohibited": [
+    "React",
+    "Vue",
+    "Angular",
+    "Laravel",
+    "TailwindCSS",
+    "Bootstrap",
+    "jQuery",
+    "Firebase Realtime Database (unless approved via ADR)",
+    "Client-side PayMongo secret key usage"
+  ]
+}

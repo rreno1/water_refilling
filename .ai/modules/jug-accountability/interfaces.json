@@ -1,0 +1,7 @@
+{
+  "module": "jug-accountability",
+  "public_services": [
+    "jug-accountability-service"
+  ],
+  "contract_version": "1.0.0"
+}

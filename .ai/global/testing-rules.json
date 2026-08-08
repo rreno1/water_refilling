@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "suite": "Firebase Emulator Suite",
+  "unit_testing": "Native Node.js test runner / Vitest for isolated service logic",
+  "integration_testing": "Firestore Security Rules tests & Cloud Functions testing against Emulators",
+  "requirements": [
+    "100% permission boundary verification for all role actions",
+    "Payment failure, forgery, and idempotency tests mandatory",
+    "Inventory boundary & negative stock prevention tests mandatory"
+  ]
+}

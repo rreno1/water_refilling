@@ -1,0 +1,20 @@
+{
+  "module": "deliveries",
+  "test_cases": [
+    {
+      "id": "deliveries-TC-01",
+      "name": "Normal Operation",
+      "type": "unit"
+    },
+    {
+      "id": "deliveries-TC-02",
+      "name": "Unauthorized Access Blocked",
+      "type": "security"
+    },
+    {
+      "id": "deliveries-TC-03",
+      "name": "Invalid Input Handling",
+      "type": "validation"
+    }
+  ]
+}

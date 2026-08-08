@@ -1,0 +1,6 @@
+{
+  "module": "customer-management",
+  "key_workflows": [
+    "Standard operation workflow for customer-management"
+  ]
+}

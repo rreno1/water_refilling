@@ -1,0 +1,7 @@
+{
+  "module": "settings",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR"
+  ]
+}

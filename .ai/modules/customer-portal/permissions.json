@@ -1,0 +1,6 @@
+{
+  "module": "customer-portal",
+  "allowed_roles": [
+    "CUSTOMER"
+  ]
+}

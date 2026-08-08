@@ -1,0 +1,13 @@
+{
+  "project_name": "water_refilling",
+  "status": "PLANNING_ONLY",
+  "key_constraints": [
+    "No frontend frameworks (React/Vue/Angular)",
+    "Vanilla JS with ES Modules & hash-based routing",
+    "PayMongo payments handled exclusively via Cloud Functions",
+    "Company jug accountability is quantity-based",
+    "No order cancellation workflow",
+    "Finalized sales are immutable (no voids, no refunds)",
+    "Sale corrections append secondary correction records by Owner/Admin only"
+  ]
+}

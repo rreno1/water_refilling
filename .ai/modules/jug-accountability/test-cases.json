@@ -1,0 +1,20 @@
+{
+  "module": "jug-accountability",
+  "test_cases": [
+    {
+      "id": "jug-accountability-TC-01",
+      "name": "Normal Operation",
+      "type": "unit"
+    },
+    {
+      "id": "jug-accountability-TC-02",
+      "name": "Unauthorized Access Blocked",
+      "type": "security"
+    },
+    {
+      "id": "jug-accountability-TC-03",
+      "name": "Invalid Input Handling",
+      "type": "validation"
+    }
+  ]
+}

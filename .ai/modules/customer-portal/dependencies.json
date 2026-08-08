@@ -1,0 +1,11 @@
+{
+  "module": "customer-portal",
+  "direct_dependencies": [
+    "authentication",
+    "customer-management",
+    "orders",
+    "payments",
+    "deliveries",
+    "notifications"
+  ]
+}

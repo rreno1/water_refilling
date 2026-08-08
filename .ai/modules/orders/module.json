@@ -1,0 +1,11 @@
+{
+  "name": "orders",
+  "version": "1.0.0",
+  "description": "Module specification for orders in water_refilling system",
+  "file_boundaries": [
+    "src/modules/orders/**",
+    "functions/src/modules/orders/**",
+    "tests/unit/orders/**",
+    "tests/integration/orders/**"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module": "sales-pos",
+  "integration_tests": [
+    {
+      "id": "sales-pos-INT-01",
+      "description": "Test sales-pos backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

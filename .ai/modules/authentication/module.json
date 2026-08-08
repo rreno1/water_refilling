@@ -1,0 +1,11 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Module specification for authentication in water_refilling system",
+  "file_boundaries": [
+    "src/modules/authentication/**",
+    "functions/src/modules/authentication/**",
+    "tests/unit/authentication/**",
+    "tests/integration/authentication/**"
+  ]
+}

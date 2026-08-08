@@ -1,0 +1,11 @@
+{
+  "name": "sales-pos",
+  "version": "1.0.0",
+  "description": "Module specification for sales-pos in water_refilling system",
+  "file_boundaries": [
+    "src/modules/sales-pos/**",
+    "functions/src/modules/sales-pos/**",
+    "tests/unit/sales-pos/**",
+    "tests/integration/sales-pos/**"
+  ]
+}

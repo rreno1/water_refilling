@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "collections": {
+    "users": "Employee accounts with single role (OWNER, ADMINISTRATOR, CASHIER, INVENTORY_PERSONNEL, DELIVERY_PERSONNEL)",
+    "customers": "Registered customer business profiles with normalized contact numbers and active/archived state",
+    "customer_addresses": "Multiple delivery addresses per customer with one default address",
+    "products": "Product catalog (V1 primary: Jug of purified water, PHP 25 configurable)",
+    "inventory_items": "Tracked inventory items (JUG, CAP, PLASTIC_FILM_SEAL) with minimum stock levels",
+    "inventory_movements": "Immutable inventory movement ledger (RESTOCK, ADJUSTMENT_IN, ADJUSTMENT_OUT, SALE_CONSUMPTION, RETURN, RESERVATION, RESERVATION_RELEASE)",
+    "gallon_movements": "Immutable quantity-based company jug accountability ledger (RELEASED_TO_CUSTOMER, RETURNED_BY_CUSTOMER, ADJUSTMENT)",
+    "orders": "Delivery orders created by Customer or Staff (WALK_IN does not require prior Order record)",
+    "deliveries": "One-to-one delivery fulfillment records tied to Orders (PENDING, ASSIGNED, OUT_FOR_DELIVERY, DELIVERED, FAILED)",
+    "payments": "Payment transactions (CASH, PAYMONGO) managed and verified by trusted Cloud Functions",
+    "sales": "Immutable finalized sales records with server-generated unique receipt numbers",
+    "sale_corrections": "Owner/Admin correction records referencing original sales without mutating original history",
+    "audit_logs": "Immutable audit trail entries for security-sensitive and business-critical operations",
+    "notifications": "In-app recipient/role scoped notification messages",
+    "daily_metrics": "Pre-aggregated daily summary documents powering performant dashboards",
+    "system_settings": "Non-secret operational business configurations"
+  }
+}

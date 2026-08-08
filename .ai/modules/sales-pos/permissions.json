@@ -1,0 +1,8 @@
+{
+  "module": "sales-pos",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "CASHIER"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "module": "user-management",
+  "allowed_roles": [
+    "OWNER"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module": "user-management",
+  "integration_tests": [
+    {
+      "id": "user-management-INT-01",
+      "description": "Test user-management backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

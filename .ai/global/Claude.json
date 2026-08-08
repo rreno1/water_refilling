@@ -1,0 +1,7 @@
+{
+  "system": "water_refilling",
+  "model_guidelines": {
+    "code_style": "ES Modules, Vanilla JS, HSL colors, dark modern responsive CSS, strict contract alignment.",
+    "security_focus": "Least privilege, backend validation, no exposed secrets, strict Firestore Security Rules."
+  }
+}

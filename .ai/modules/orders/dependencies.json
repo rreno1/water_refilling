@@ -1,0 +1,12 @@
+{
+  "module": "orders",
+  "direct_dependencies": [
+    "authentication",
+    "customer-management",
+    "product-pricing",
+    "inventory",
+    "jug-accountability",
+    "notifications",
+    "audit"
+  ]
+}

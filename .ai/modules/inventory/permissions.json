@@ -1,0 +1,8 @@
+{
+  "module": "inventory",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "INVENTORY_PERSONNEL"
+  ]
+}

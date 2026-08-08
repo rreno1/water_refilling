@@ -1,0 +1,7 @@
+{
+  "module": "settings",
+  "direct_dependencies": [
+    "authentication",
+    "audit"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module": "notifications",
+  "integration_tests": [
+    {
+      "id": "notifications-INT-01",
+      "description": "Test notifications backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

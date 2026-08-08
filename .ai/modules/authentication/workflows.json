@@ -1,0 +1,6 @@
+{
+  "module": "authentication",
+  "key_workflows": [
+    "Standard operation workflow for authentication"
+  ]
+}

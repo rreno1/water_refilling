@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "system": "water_refilling",
+  "framework": "Ritz Structured Multi-Model AI Development Framework",
+  "version": "1.0.0",
+  "roles": {
+    "lead_architect": "Responsible for global architecture, contract locking, and ADR enforcement.",
+    "module_developer": "Responsible for localized module implementation within explicit boundaries.",
+    "code_reviewer": "Verifies contract compliance, security boundaries, and test completeness."
+  },
+  "instruction_policy": "All models must strictly adhere to versioned contracts and explicit file boundaries."
+}

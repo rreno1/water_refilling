@@ -1,0 +1,9 @@
+{
+  "module": "deliveries",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "DELIVERY_PERSONNEL",
+    "CUSTOMER"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "reports",
+  "public_services": [
+    "reports-service"
+  ],
+  "contract_version": "1.0.0"
+}

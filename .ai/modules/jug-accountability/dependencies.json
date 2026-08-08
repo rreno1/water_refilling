@@ -1,0 +1,8 @@
+{
+  "module": "jug-accountability",
+  "direct_dependencies": [
+    "authentication",
+    "customer-management",
+    "audit"
+  ]
+}

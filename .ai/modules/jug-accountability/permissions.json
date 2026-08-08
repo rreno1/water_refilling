@@ -1,0 +1,9 @@
+{
+  "module": "jug-accountability",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "INVENTORY_PERSONNEL",
+    "CASHIER"
+  ]
+}

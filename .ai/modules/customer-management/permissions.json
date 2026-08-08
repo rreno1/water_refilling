@@ -1,0 +1,8 @@
+{
+  "module": "customer-management",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR",
+    "CASHIER"
+  ]
+}

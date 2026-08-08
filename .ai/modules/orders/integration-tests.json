@@ -1,0 +1,9 @@
+{
+  "module": "orders",
+  "integration_tests": [
+    {
+      "id": "orders-INT-01",
+      "description": "Test orders backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

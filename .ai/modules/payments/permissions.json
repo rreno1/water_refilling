@@ -1,0 +1,10 @@
+{
+  "module": "payments",
+  "allowed_roles": [
+    "CUSTOMER",
+    "OWNER",
+    "ADMINISTRATOR",
+    "CASHIER",
+    "DELIVERY_PERSONNEL"
+  ]
+}

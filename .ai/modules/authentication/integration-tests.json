@@ -1,0 +1,9 @@
+{
+  "module": "authentication",
+  "integration_tests": [
+    {
+      "id": "authentication-INT-01",
+      "description": "Test authentication backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

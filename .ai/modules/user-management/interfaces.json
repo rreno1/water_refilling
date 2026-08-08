@@ -1,0 +1,7 @@
+{
+  "module": "user-management",
+  "public_services": [
+    "user-management-service"
+  ],
+  "contract_version": "1.0.0"
+}

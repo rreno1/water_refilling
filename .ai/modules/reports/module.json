@@ -1,0 +1,11 @@
+{
+  "name": "reports",
+  "version": "1.0.0",
+  "description": "Module specification for reports in water_refilling system",
+  "file_boundaries": [
+    "src/modules/reports/**",
+    "functions/src/modules/reports/**",
+    "tests/unit/reports/**",
+    "tests/integration/reports/**"
+  ]
+}

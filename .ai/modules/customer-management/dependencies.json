@@ -1,0 +1,7 @@
+{
+  "module": "customer-management",
+  "direct_dependencies": [
+    "authentication",
+    "audit"
+  ]
+}

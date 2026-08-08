@@ -1,0 +1,20 @@
+{
+  "module": "sales-pos",
+  "test_cases": [
+    {
+      "id": "sales-pos-TC-01",
+      "name": "Normal Operation",
+      "type": "unit"
+    },
+    {
+      "id": "sales-pos-TC-02",
+      "name": "Unauthorized Access Blocked",
+      "type": "security"
+    },
+    {
+      "id": "sales-pos-TC-03",
+      "name": "Invalid Input Handling",
+      "type": "validation"
+    }
+  ]
+}

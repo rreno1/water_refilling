@@ -1,0 +1,20 @@
+{
+  "module": "dashboard",
+  "test_cases": [
+    {
+      "id": "dashboard-TC-01",
+      "name": "Normal Operation",
+      "type": "unit"
+    },
+    {
+      "id": "dashboard-TC-02",
+      "name": "Unauthorized Access Blocked",
+      "type": "security"
+    },
+    {
+      "id": "dashboard-TC-03",
+      "name": "Invalid Input Handling",
+      "type": "validation"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "notifications",
+  "public_services": [
+    "notifications-service"
+  ],
+  "contract_version": "1.0.0"
+}

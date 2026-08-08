@@ -1,0 +1,7 @@
+{
+  "module": "settings",
+  "public_services": [
+    "settings-service"
+  ],
+  "contract_version": "1.0.0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "Module specification for user-management in water_refilling system",
+  "file_boundaries": [
+    "src/modules/user-management/**",
+    "functions/src/modules/user-management/**",
+    "tests/unit/user-management/**",
+    "tests/integration/user-management/**"
+  ]
+}

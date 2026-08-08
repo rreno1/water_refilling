@@ -1,0 +1,7 @@
+{
+  "module": "customer-management",
+  "public_services": [
+    "customer-management-service"
+  ],
+  "contract_version": "1.0.0"
+}

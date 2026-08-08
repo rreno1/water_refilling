@@ -1,0 +1,11 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "Module specification for payments in water_refilling system",
+  "file_boundaries": [
+    "src/modules/payments/**",
+    "functions/src/modules/payments/**",
+    "tests/unit/payments/**",
+    "tests/integration/payments/**"
+  ]
+}

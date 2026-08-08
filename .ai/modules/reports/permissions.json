@@ -1,0 +1,7 @@
+{
+  "module": "reports",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR"
+  ]
+}

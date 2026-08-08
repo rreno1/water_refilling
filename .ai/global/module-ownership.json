@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "default_ownership": {
+    "owner": "TBD",
+    "reviewers": []
+  },
+  "modules": {
+    "authentication": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "user-management": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "customer-management": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "customer-portal": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "product-pricing": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "inventory": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "jug-accountability": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "orders": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "payments": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "sales-pos": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "deliveries": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "notifications": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "dashboard": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "reports": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "audit": {
+      "owner": "TBD",
+      "reviewers": []
+    },
+    "settings": {
+      "owner": "TBD",
+      "reviewers": []
+    }
+  }
+}

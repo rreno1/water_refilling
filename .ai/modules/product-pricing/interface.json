@@ -1,0 +1,6 @@
+{
+  "module": "product-pricing",
+  "exports": [
+    "initProductPricingModule"
+  ]
+}

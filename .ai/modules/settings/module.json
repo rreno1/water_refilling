@@ -1,0 +1,11 @@
+{
+  "name": "settings",
+  "version": "1.0.0",
+  "description": "Module specification for settings in water_refilling system",
+  "file_boundaries": [
+    "src/modules/settings/**",
+    "functions/src/modules/settings/**",
+    "tests/unit/settings/**",
+    "tests/integration/settings/**"
+  ]
+}

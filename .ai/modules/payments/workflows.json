@@ -1,0 +1,6 @@
+{
+  "module": "payments",
+  "key_workflows": [
+    "Standard operation workflow for payments"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "module": "inventory",
+  "direct_dependencies": [
+    "authentication",
+    "product-pricing",
+    "audit"
+  ]
+}

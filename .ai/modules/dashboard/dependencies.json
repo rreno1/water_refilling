@@ -1,0 +1,11 @@
+{
+  "module": "dashboard",
+  "direct_dependencies": [
+    "authentication",
+    "sales-pos",
+    "orders",
+    "deliveries",
+    "inventory",
+    "jug-accountability"
+  ]
+}

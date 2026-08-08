@@ -1,0 +1,10 @@
+{
+  "module": "deliveries",
+  "direct_dependencies": [
+    "authentication",
+    "orders",
+    "payments",
+    "notifications",
+    "audit"
+  ]
+}

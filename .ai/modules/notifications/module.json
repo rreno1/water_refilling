@@ -1,0 +1,11 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "Module specification for notifications in water_refilling system",
+  "file_boundaries": [
+    "src/modules/notifications/**",
+    "functions/src/modules/notifications/**",
+    "tests/unit/notifications/**",
+    "tests/integration/notifications/**"
+  ]
+}

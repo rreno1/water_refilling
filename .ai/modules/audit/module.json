@@ -1,0 +1,11 @@
+{
+  "name": "audit",
+  "version": "1.0.0",
+  "description": "Module specification for audit in water_refilling system",
+  "file_boundaries": [
+    "src/modules/audit/**",
+    "functions/src/modules/audit/**",
+    "tests/unit/audit/**",
+    "tests/integration/audit/**"
+  ]
+}

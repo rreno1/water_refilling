@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "modules": [
+    "authentication",
+    "user-management",
+    "customer-management",
+    "customer-portal",
+    "product-pricing",
+    "inventory",
+    "jug-accountability",
+    "orders",
+    "payments",
+    "sales-pos",
+    "deliveries",
+    "notifications",
+    "dashboard",
+    "reports",
+    "audit",
+    "settings"
+  ]
+}

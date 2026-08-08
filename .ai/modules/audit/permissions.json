@@ -1,0 +1,7 @@
+{
+  "module": "audit",
+  "allowed_roles": [
+    "OWNER",
+    "ADMINISTRATOR"
+  ]
+}

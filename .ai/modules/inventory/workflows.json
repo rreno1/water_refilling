@@ -1,0 +1,6 @@
+{
+  "module": "inventory",
+  "key_workflows": [
+    "Standard operation workflow for inventory"
+  ]
+}

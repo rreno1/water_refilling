@@ -1,0 +1,7 @@
+{
+  "module": "product-pricing",
+  "public_services": [
+    "product-pricing-service"
+  ],
+  "contract_version": "1.0.0"
+}

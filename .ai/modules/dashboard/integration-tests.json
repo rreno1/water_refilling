@@ -1,0 +1,9 @@
+{
+  "module": "dashboard",
+  "integration_tests": [
+    {
+      "id": "dashboard-INT-01",
+      "description": "Test dashboard backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}

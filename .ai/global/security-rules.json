@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "rules": {
+    "authentication": "Firebase Auth mandatory for all non-public routes",
+    "authorization": "Least privilege RBAC enforced at Cloud Functions and Firestore Security Rules",
+    "secrets": "PayMongo secret keys and Firebase Admin credentials stored in Cloud Secret Manager only",
+    "data_isolation": "Customers access only their own sub-trees/documents. Delivery personnel access minimal assigned delivery data.",
+    "client_trust": "Never trust client price, quantity, totals, or payment state"
+  }
+}

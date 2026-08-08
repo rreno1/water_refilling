@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    "Modules MUST interact strictly through documented public interfaces.",
+    "No direct cross-module private file imports.",
+    "UI components MUST delegate business logic to Services, which call Repositories/Cloud Functions.",
+    "Cloud Functions handle all multi-collection transactional mutations.",
+    "Client apps must never construct direct database mutations across multiple collections without backend orchestration."
+  ]
+}

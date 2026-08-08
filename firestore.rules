@@ -1,0 +1,137 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper Functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+    
+    function hasRole(role) {
+      return isAuthenticated() && getUserData().role == role;
+    }
+
+    function isOwner() {
+      return hasRole('OWNER');
+    }
+
+    function isAdminOrOwner() {
+      return hasRole('OWNER') || hasRole('ADMINISTRATOR');
+    }
+
+    function isStaff() {
+      return isAuthenticated() && getUserData().role in ['OWNER', 'ADMINISTRATOR', 'CASHIER', 'INVENTORY_PERSONNEL', 'DELIVERY_PERSONNEL'];
+    }
+
+    // Users Collection (Employees)
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isStaff());
+      allow write: if isOwner();
+    }
+
+    // Customers Collection
+    match /customers/{customerId} {
+      allow read: if isAuthenticated() && (request.auth.uid == customerId || isStaff());
+      allow create, update: if isAuthenticated() && (request.auth.uid == customerId || isStaff());
+      allow delete: if false; // Archive only
+    }
+
+    // Customer Addresses Subcollection
+    match /customers/{customerId}/addresses/{addressId} {
+      allow read, write: if isAuthenticated() && (request.auth.uid == customerId || isStaff());
+    }
+
+    // Products Collection
+    match /products/{productId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdminOrOwner();
+    }
+
+    // Inventory Items Collection
+    match /inventory_items/{itemId} {
+      allow read: if isStaff();
+      allow write: if hasRole('OWNER') || hasRole('ADMINISTRATOR') || hasRole('INVENTORY_PERSONNEL');
+    }
+
+    // Inventory Movements Ledger (Immutable)
+    match /inventory_movements/{movementId} {
+      allow read: if isStaff();
+      allow create: if isStaff();
+      allow update, delete: if false;
+    }
+
+    // Gallon/Jug Movements Ledger (Immutable)
+    match /gallon_movements/{movementId} {
+      allow read: if isStaff() || (isAuthenticated() && resource.data.customerId == request.auth.uid);
+      allow create: if isStaff();
+      allow update, delete: if false;
+    }
+
+    // Orders Collection
+    match /orders/{orderId} {
+      allow read: if isStaff() || (isAuthenticated() && resource.data.customerId == request.auth.uid);
+      allow create: if isAuthenticated();
+      allow update: if isStaff();
+      allow delete: if false;
+    }
+
+    // Deliveries Collection
+    match /deliveries/{deliveryId} {
+      allow read: if isStaff() || (isAuthenticated() && resource.data.customerId == request.auth.uid);
+      allow create, update: if isStaff();
+      allow delete: if false;
+    }
+
+    // Payments Collection
+    match /payments/{paymentId} {
+      allow read: if isStaff() || (isAuthenticated() && resource.data.customerId == request.auth.uid);
+      allow create, update: if isStaff();
+      allow delete: if false;
+    }
+
+    // Sales Collection (Finalized sales immutable)
+    match /sales/{saleId} {
+      allow read: if isStaff();
+      allow create: if hasRole('OWNER') || hasRole('ADMINISTRATOR') || hasRole('CASHIER');
+      allow update, delete: if false; // IMMUTABLE
+    }
+
+    // Sale Corrections Collection (Immutable additions referencing sales)
+    match /sale_corrections/{correctionId} {
+      allow read: if isAdminOrOwner();
+      allow create: if isAdminOrOwner();
+      allow update, delete: if false;
+    }
+
+    // Audit Logs Collection (Immutable)
+    match /audit_logs/{logId} {
+      allow read: if isAdminOrOwner();
+      allow create: if isAuthenticated();
+      allow update, delete: if false;
+    }
+
+    // Notifications Collection
+    match /notifications/{notificationId} {
+      allow read: if isAuthenticated() && (resource.data.recipientUid == request.auth.uid || resource.data.recipientRole == getUserData().role);
+      allow create: if isStaff();
+      allow update: if isAuthenticated() && resource.data.recipientUid == request.auth.uid;
+      allow delete: if false;
+    }
+
+    // Daily Metrics Summary Collection
+    match /daily_metrics/{metricId} {
+      allow read: if isStaff();
+      allow write: if isStaff();
+    }
+
+    // System Settings Collection
+    match /system_settings/{settingId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdminOrOwner();
+    }
+  }
+}

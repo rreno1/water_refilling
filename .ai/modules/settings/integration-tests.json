@@ -1,0 +1,9 @@
+{
+  "module": "settings",
+  "integration_tests": [
+    {
+      "id": "settings-INT-01",
+      "description": "Test settings backend Cloud Function with Firebase Emulator"
+    }
+  ]
+}
