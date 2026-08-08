@@ -95,8 +95,10 @@ export async function navigate() {
 
   const mainContent = document.getElementById('main-content');
 
+  const publicRoutes = ['#/login', '#/customer-portal'];
+
   // Check route authentication & authorization
-  if (hash !== '#/login' && !userSession) {
+  if (!publicRoutes.includes(hash) && !userSession) {
     window.location.hash = '#/login';
     return;
   }
